@@ -1,0 +1,1 @@
+cmd_Release/cryptonote.node := ln -f "Release/obj.target/cryptonote.node" "Release/cryptonote.node" 2>/dev/null || (rm -rf "Release/cryptonote.node" && cp -af "Release/obj.target/cryptonote.node" "Release/cryptonote.node")
